@@ -2,9 +2,7 @@ pipeline{
 	agent{
 		label 'win'
 	}
-	tools {
-		maven 'M3'
-	}
+	
 	stages{
 		
 		stage('build'){
